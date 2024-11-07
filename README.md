@@ -13,10 +13,8 @@ _This project focuses on detecting and predicting anomalous electricity consumpt
 - [Data Sources](#data-sources)
 - [Results and Discussion](#results-and-discussion)
 - [Error Analysis](#error-analysis)
-- Future Work
-- How to Run the Project
-- Acknowledgements
-- Author
+- [Future Work](#future-work)
+- [How to Run the Project](#how-to-run-the-project)
 
 ### Background and Motivation
 ---
