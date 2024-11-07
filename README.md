@@ -129,4 +129,19 @@ Error analysis was a crucial part of evaluating the performance of the models. T
 
 - **Feature Sensitivity**: The models were sensitive to certain features, such as population density and electricity consumption per household. The error analysis showed that slight inaccuracies or inconsistencies in these features could lead to significant prediction errors. This emphasizes the importance of careful feature engineering and selection.
 - **False Positives**: The Ensemble Method, despite its high detection rate, also had a higher rate of false positives compared to simpler models. This means that it occasionally flagged normal consumption patterns as anomalous, which could lead to unnecessary interventions if applied in a real-world context. Balancing precision and recall was essential to minimize these false alarms.
+---
+
+### How to Run the Project
+- Clone the Repository:
+```bash
+git clone https://github.com/username/Electricity_Consumption_Project.git
+```
+
+- Install Dependencies: Use requirements.txt to install necessary packages.
+```bash
+pip install -r requirements.txt
+```
+- Run the Code: Use Jupyter Notebook or your preferred Python environment to execute the analysis scripts.
+- Access the Results: [See the full project report](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/Ezenwajiaku_CJ_14227905_2024.pdf).
+
 
