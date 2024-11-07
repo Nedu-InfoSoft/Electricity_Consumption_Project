@@ -12,6 +12,7 @@ _This project focuses on detecting and predicting anomalous electricity consumpt
 - [Methodology](#methodology)
 - [Data Sources](#data-sources)
 - [Results and Discussion](#results-and-discussion)
+- [Error Analysis]()
 - Future Work
 - How to Run the Project
 - Acknowledgements
@@ -114,3 +115,16 @@ The project also explored predictive models to forecast future anomalies:
 
 - Energy Conservation: The ability to detect and predict anomalies at a granular level enables the implementation of energy conservation measures in areas where inefficiencies are most pronounced.
 - Policy Development: Policymakers can use these insights to create data-driven energy policies that account for demographic trends and consumption behaviors, promoting sustainable energy usage.
+---
+
+### Error Analysis
+
+Error analysis was a crucial part of evaluating the performance of the models. The main findings from the error analysis are outlined below:
+
+![Image](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/images/misclassified_correlation_matrix.png)
+
+- **Misclassified Instances**: An in-depth review of the misclassified data points revealed that many errors were due to overlapping characteristics between normal and anomalous consumption patterns. For instance, postcodes with medium population density sometimes exhibited usage behaviors similar to both high-density and low-density areas, making them difficult to classify accurately.
+
+- **Feature Sensitivity**: The models were sensitive to certain features, such as population density and electricity consumption per household. The error analysis showed that slight inaccuracies or inconsistencies in these features could lead to significant prediction errors. This emphasizes the importance of careful feature engineering and selection.
+- **False Positives**: The Ensemble Method, despite its high detection rate, also had a higher rate of false positives compared to simpler models. This means that it occasionally flagged normal consumption patterns as anomalous, which could lead to unnecessary interventions if applied in a real-world context. Balancing precision and recall was essential to minimize these false alarms.
+
