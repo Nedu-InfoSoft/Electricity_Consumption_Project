@@ -105,6 +105,8 @@ The project also explored predictive models to forecast future anomalies:
 
 #### Key Insights
 
+![Image](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/images/feature_importances.png)
+
 - Feature Importance: Analysis revealed that features such as population density and electricity consumption per household were the most significant predictors. This insight can help energy planners prioritize areas for monitoring and infrastructure upgrades.
 - Demographic Influence: The results highlighted a strong link between demographic factors and electricity usage patterns. Postcodes with higher population densities had more consistent and predictable consumption patterns, while areas with lower population densities showed greater variability.
 
@@ -112,4 +114,3 @@ The project also explored predictive models to forecast future anomalies:
 
 - Energy Conservation: The ability to detect and predict anomalies at a granular level enables the implementation of energy conservation measures in areas where inefficiencies are most pronounced.
 - Policy Development: Policymakers can use these insights to create data-driven energy policies that account for demographic trends and consumption behaviors, promoting sustainable energy usage.
-
