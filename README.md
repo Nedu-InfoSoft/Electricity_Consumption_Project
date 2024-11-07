@@ -72,9 +72,9 @@ The project follows a systematic approach:
 
 ### **Results and Discussion**
 ---
-## **[Link to the experiment code](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/EDA.ipynb)**
+## **[Link to Exploratory Data Analysis](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/EDA.ipynb)**
 ## **[Link to the experiment code](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/Analysis%20and%20Results.ipynb)**
-## **[Link to full project report](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/Ezenwajiaku_CJ_14227905_2024.pdf)
+## **[Link to full project report](https://github.com/Nedu-InfoSoft/Electricity_Consumption_Project/blob/main/Ezenwajiaku_CJ_14227905_2024.pdf)**
 #### **Outlier Detection Results**
 
 The study utilized three different outlier detection methods: Local Outlier Factor (LOF), Isolation Forest, and an Ensemble Method. The findings are summarized below:
