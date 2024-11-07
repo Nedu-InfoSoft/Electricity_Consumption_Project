@@ -129,6 +129,12 @@ Error analysis was a crucial part of evaluating the performance of the models. T
 - **False Positives**: The Ensemble Method, despite its high detection rate, also had a higher rate of false positives compared to simpler models. This means that it occasionally flagged normal consumption patterns as anomalous, which could lead to unnecessary interventions if applied in a real-world context. Balancing precision and recall was essential to minimize these false alarms.
 ---
 
+### Future Work
+- Incorporate Additional Features: Including weather conditions, economic indicators, and real-time data could further refine model predictions.
+- Explore Real-Time Anomaly Detection: Developing models capable of processing live data could enhance the responsiveness of energy management systems.
+- Geographic Expansion: Using transfer learning to adapt the models for other regions or countries could provide valuable insights into international energy consumption patterns.
+---
+
 ### How to Run the Project
 - Clone the Repository:
 ```bash
