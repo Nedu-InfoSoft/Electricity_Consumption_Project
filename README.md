@@ -130,9 +130,9 @@ Error analysis was a crucial part of evaluating the performance of the models. T
 ---
 
 ### Future Work
-- Incorporate Additional Features: Including weather conditions, economic indicators, and real-time data could further refine model predictions.
-- Explore Real-Time Anomaly Detection: Developing models capable of processing live data could enhance the responsiveness of energy management systems.
-- Geographic Expansion: Using transfer learning to adapt the models for other regions or countries could provide valuable insights into international energy consumption patterns.
+- **Incorporate Additional Features**: Including weather conditions, economic indicators, and real-time data could further refine model predictions.
+- **Explore Real-Time Anomaly Detection**: Developing models capable of processing live data could enhance the responsiveness of energy management systems.
+- **Geographic Expansion**: Using transfer learning to adapt the models for other regions or countries could provide valuable insights into international energy consumption patterns.
 ---
 
 ### How to Run the Project
